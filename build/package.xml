@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PHPStubClass</name>
+ <channel>pear.php.net</channel>
+ <summary>utility to rewrite class as stub for unit test using reflection and runkit</summary>
+ <description>utility to rewrite class as stub for unit test using reflection and runkit</description>
+ <lead>
+  <name>tily</name>
+  <user>tily</user>
+  <email>tily05@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-07-18</date>
+ <time>10:35:50</time>
+ <version>
+  <release>0.0.1</release>
+  <api>0.0.1</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>
+Initial release
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <dir name="doc">
+    <dir name="default">
+     <file name="PHPStubClass.html" role="doc" />
+     <file name="_PHPStubClass.php.html" role="doc" />
+    </dir> <!-- /doc/default -->
+    <dir name="media">
+     <file name="background.png" role="doc" />
+     <file name="empty.png" role="doc" />
+     <file name="style.css" role="doc" />
+    </dir> <!-- /doc/media -->
+    <file name="classtrees_default.html" role="doc" />
+    <file name="elementindex.html" role="doc" />
+    <file name="elementindex_default.html" role="doc" />
+    <file name="errors.html" role="doc" />
+    <file name="index.html" role="doc" />
+    <file name="li_default.html" role="doc" />
+   </dir> <!-- /doc -->
+   <dir name="example">
+    <file name="simple_example.php" role="doc" />
+   </dir> <!-- /example -->
+   <dir name="test">
+    <dir name="coverage">
+     <file name="butter.png" role="test" />
+     <file name="chameleon.png" role="test" />
+     <file name="close12_1.gif" role="test" />
+     <file name="container-min.js" role="test" />
+     <file name="container.css" role="test" />
+     <file name="glass.png" role="test" />
+     <file name="index.html" role="test" />
+     <file name="PHPStubClass.php.html" role="test" />
+     <file name="scarlet_red.png" role="test" />
+     <file name="snow.png" role="test" />
+     <file name="style.css" role="test" />
+     <file name="yahoo-dom-event.js" role="test" />
+    </dir> <!-- /test/coverage -->
+    <file name="PHPStubClass_GeneralTest.php" role="test" />
+    <file name="PHPStubClass_VariousOptionsTest.php" role="test" />
+   </dir> <!-- /test -->
+   <file name="PHPStubClass.php" role="php" />
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0a12</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2010-07-18</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>
+Initial release
+   </notes>
+  </release>
+ </changelog>
+</package>
